@@ -1,4 +1,4 @@
-```python
+python
 import streamlit as st
 import yfinance as yf
 from strategy import generate_signal
@@ -15,5 +15,5 @@ signal = generate_signal(df)
 
 st.metric("Current Signal", signal)
 st.line_chart(df['Close'])
-```
+
 
