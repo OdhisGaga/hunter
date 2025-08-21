@@ -102,3 +102,6 @@ def generate_signal(df):
         if pattern.startswith('bullish') and reward_ratio>= 2.5:
             signal = 'BUY'
         elif pattern.startswith('bearish') and reward_ratio>= 2.5:
+            signall = 'SELL'
+
+    return signal
